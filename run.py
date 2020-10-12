@@ -29,4 +29,29 @@ def verify_user(first_name,pword):
     checking_user = Credential.check_user(first_name,pword)
     return checking_user
 
-    
+    def save_cred(credential):
+    """
+    Function to save user credentials
+    """
+    credential.save_credential()
+
+
+def del_user(user):
+    """
+    Function to delete a user
+    """
+    user.delete_user()
+
+
+def del_cred(credential):
+    """
+    Function to delete all users credentials
+    """
+    credential.delete_credential()
+
+
+def display_user():
+    """
+    Function that returns saved users
+    """
+    return User.display_users()
