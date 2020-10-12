@@ -29,7 +29,9 @@ def verify_user(first_name,pword):
     checking_user = Credential.check_user(first_name,pword)
     return checking_user
 
-    def save_cred(credential):
+
+
+def save_cred(credential):
     """
     Function to save user credentials
     """
@@ -55,6 +57,7 @@ def display_user():
     Function that returns saved users
     """
     return User.display_users()
+
 
 def display_cred():
     """
