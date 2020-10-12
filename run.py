@@ -55,3 +55,44 @@ def display_user():
     Function that returns saved users
     """
     return User.display_users()
+
+def display_cred():
+    """
+    function that returns saved user credentials
+    """
+    return Credential.display_credential()
+
+
+def main():
+
+    print("Welcome to your Password Locker, choose your path from the list of allowed actions")
+
+    while True:
+        print("Allowed Actions: \n 1 - create a new user account with a Personal password\n 2 - create a new user account with a auto-generated password\n 3 - Display all user accounts \n 4 - Login  to an existing Account\n ex -exit the contact list \n")
+
+        short_code = input().lower()
+
+        if short_code == '1':
+            print("New User")
+            print("-"*10)
+            print("Hey There!!! What site do you want to create an account for?")
+            site = input()
+            print(f"Aah!! So you love {site}?")
+
+            print("First name ....")
+            f_name = input()
+
+            print("Last name ...")
+            l_name = input()
+
+            print("Phone number ...")
+            p_number = input()
+
+            print("Email address ...")
+            e_address = input()
+
+            print("Enter username ...")
+            user_name = input()
+
+            print("Enter Password ...")
+            pword = input()
