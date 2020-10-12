@@ -2,8 +2,7 @@
 # Password-Locker
 
  Date of current version<bold>*: 12/10/2020*</bold>
- <img src="./src/assets/p.png">
-
+ 
 #### By:
 
 1. Dennis Mutai ; lead developer
