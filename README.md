@@ -1,12 +1,11 @@
 # Password-Locker
 # Password-Locker
 
- Date of current version<bold>*: 12/10/2020*</bold>
+ Date of current version<bold>*: 13/10/2020*</bold>
  
 #### By:
 
 1. Dennis Mutai ; lead developer
-1. Moringa Students ; Assistant designers
 
 ## Description
 
